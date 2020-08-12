@@ -4,6 +4,7 @@ This repo is used to build hadoop related ecosystem from bare dockerfile without
 
 All components works in one image, shown full configurate process.
 
+Image already build can be found here [docker hub](https://hub.docker.com/search?q=leoninewang&type=image)
 
 ### Attention
 

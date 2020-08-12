@@ -6,9 +6,9 @@ networks:
 
 services: 
 
-  # docker run --rm -it -h master --network hadoop -p 8020:8020 -p 50010:50010 -p 50070:50070 -p 50075:50075 --name centos-hadoop-master leoninew/centos/hadoop
+  # docker run --rm -it -h master --network hadoop -p 8020:8020 -p 50010:50010 -p 50070:50070 -p 50075:50075 --name centos-hadoop-master leoninewang/centos/hadoop
   master:
-    image: leoninew/hadoop:2.7.7
+    image: leoninewang/hadoop:2.7.7
     ports:
       - 8020:8020
       - 9000:9000

@@ -7,8 +7,8 @@
 ## Build
 
 ```bash
-docker build 2.4.6 -t leoninew/spark:2.4.6
-docker run --rm -it --hostname master -p 8020:8020 -p 9000:9000 -p 50010:50010 -p 50070:50070 -p 50075:50075 -p 7077:7077 -p 8080:8080 -p 8081:8081 -p 10000:10000 leoninew/spark:2.4.6
+docker build 2.4.6 -t leoninewang/spark:2.4.6
+docker run --rm -it --hostname master -p 8020:8020 -p 9000:9000 -p 50010:50010 -p 50070:50070 -p 50075:50075 -p 7077:7077 -p 8080:8080 -p 8081:8081 -p 10000:10000 leoninewang/spark:2.4.6
 ```
 
 ## Startup

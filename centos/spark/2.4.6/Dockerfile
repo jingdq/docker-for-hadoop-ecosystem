@@ -1,4 +1,4 @@
-FROM leoninew/hive:1.2.2
+FROM leoninewang/hive:1.2.2
 
 WORKDIR /opt/
 

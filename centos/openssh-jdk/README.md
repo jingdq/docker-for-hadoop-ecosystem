@@ -6,8 +6,8 @@
 ## build
 
 ```bash
-docker build 8 -t leoninew/openssh-jdk:8
-docker run -it --rm leoninew/openssh-jdk:8
+docker build 8 -t leoninewang/openssh-jdk:8
+docker run -it --rm leoninewang/openssh-jdk:8
 ```
 
 ## Startup

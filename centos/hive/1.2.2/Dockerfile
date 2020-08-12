@@ -1,4 +1,4 @@
-FROM leoninew/hadoop:2.7.7
+FROM leoninewang/hadoop:2.7.7
 
 WORKDIR /opt/
 

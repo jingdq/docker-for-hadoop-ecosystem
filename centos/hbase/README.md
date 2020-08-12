@@ -1,8 +1,8 @@
 ## Build
 
 ```bash
-docker build 1.4.13 -t leoninew/hbase:1.4.13
-docker run --rm -it --hostname master -p 8020:8020 -p 9000:9000 -p 50010:50010 -p 50070:50070 -p 50075:50075 -p 16000:16000 -p 60000:60000 -p 2181:2181 leoninew/hbase:1.4.13
+docker build 1.4.13 -t leoninewang/hbase:1.4.13
+docker run --rm -it --hostname master -p 8020:8020 -p 9000:9000 -p 50010:50010 -p 50070:50070 -p 50075:50075 -p 16000:16000 -p 60000:60000 -p 2181:2181 leoninewang/hbase:1.4.13
 ```
 
 ## Startup

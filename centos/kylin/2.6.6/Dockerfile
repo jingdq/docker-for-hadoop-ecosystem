@@ -1,4 +1,4 @@
-FROM leoninew/spark:2.4.6
+FROM leoninewang/spark:2.4.6
 
 WORKDIR /opt/
 

@@ -1,8 +1,8 @@
 ## Build
 
 ```bash
-docker build 1.2.2 -t leoninew/hive:1.2.2
-docker run --rm -it --hostname master -p 8020:8020 -p 9000:9000 -p 50010:50010 -p 50070:50070 -p 50075:50075 -p 9083:9083 -p 9999:9999 -p 10000:10000 leoninew/hive:1.2.2
+docker build 1.2.2 -t leoninewang/hive:1.2.2
+docker run --rm -it --hostname master -p 8020:8020 -p 9000:9000 -p 50010:50010 -p 50070:50070 -p 50075:50075 -p 9083:9083 -p 9999:9999 -p 10000:10000 leoninewang/hive:1.2.2
 ```
 
 ## Startup

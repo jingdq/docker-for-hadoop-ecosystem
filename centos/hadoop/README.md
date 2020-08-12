@@ -3,8 +3,8 @@
 for docker run
 
 ```bash
-docker build 2.7.7 -t leoninew/hadoop:2.7.7
-docker run --rm -it --hostname master -p 8020:8020 -p 9000:9000 -p 50010:50010 -p 50070:50070 -p 50075:50075 leoninew/hadoop:2.7.7
+docker build 2.7.7 -t leoninewang/hadoop:2.7.7
+docker run --rm -it --hostname master -p 8020:8020 -p 9000:9000 -p 50010:50010 -p 50070:50070 -p 50075:50075 leoninewang/hadoop:2.7.7
 ```
 
 ## Startup

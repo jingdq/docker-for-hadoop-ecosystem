@@ -1,4 +1,4 @@
-FROM leoninew/openssh-jdk:8
+FROM leoninewang/openssh-jdk:8
 
 WORKDIR /opt/
 
