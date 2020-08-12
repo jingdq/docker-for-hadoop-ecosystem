@@ -1,0 +1,25 @@
+version: "3"
+
+networks:
+    hadoop:
+      driver: overlay
+
+services: 
+
+  # docker run --rm -it -h master --network hadoop -p 8020:8020 -p 50010:50010 -p 50070:50070 -p 50075:50075 --name centos-hadoop-master leoninew/centos/hadoop
+  master:
+    image: leoninew/hadoop:2.7.7
+    ports:
+      - 8020:8020
+      - 9000:9000
+      - 50010:50010
+      - 50070:50070
+      - 50075:50075
+    networks:
+      - hadoop
+    deploy:
+      restart_policy:
+        condition: on-failure
+      replicas: 1
+    stdin_open: true
+    tty: true
